@@ -1,0 +1,87 @@
+p{
+  font-family: Arial, sans-serif; /* Arial font */
+  font-size: 14px; /* font size */
+  color: rgb(0, 0, 0); /* text color */
+  margin: 10px 0; /* top and bottom margin */
+  width: 400px; /* width of the text */
+}
+.five-e-a {
+  font-weight: bold; /* bold font */
+  text-align: center; /* center alignment */
+  width: 400px; /* width of the text */
+  color: sandybrown;
+}
+.five-e-b {
+  font-weight: bold; /* bold font */
+  text-align: center; /* center alignment */
+  width: 400px; /* width of the text */
+  font-size: 20px; /* font size */
+  margin-bottom: 5px; /* bottom margin */
+
+}
+.five-e-c {
+  margin-top: 0px; /* top margin */
+  font-size: 30px; /* font size */
+  font-weight: bold; /* bold font */
+  text-align: center; /* center alignment */
+  width: 400px; /* width of the text */
+}
+.five-e-d {
+  text-align: center; /* center alignment */
+  width: 400px; /* width of the text */
+}
+
+.five-e-e {
+  font-weight: bold; /* bold font */
+  color: white; /* text color */
+  background-color: rgb(64, 137, 227); /* background color */
+  border-radius: 20px; /* rounded corners */
+  padding: 6px 8px; /* padding: top, bottom, left, right */
+  text-align: center; /* center text */
+  cursor: pointer; /* cursor style */
+  width: 34px; /* width of the button */
+  text-align: center; /* center alignment */
+  margin-left: 168px; /* center the button */
+
+}
+.price {
+  font-size: 24px; /* font size */
+  margin-top: 20px; /* top margin */
+}
+.usd {
+  font-size: 16px; /* font size */
+  color: rgb(96, 96, 96); /* text color */
+}
+.change {
+  font-size: 16px; /* font size */
+  color: rgb(0, 128, 0); /* text color */
+}
+.after-hours {
+  font-size: 16px; /* font size */
+  color: rgb(96, 96, 96); /* text color */
+}
+.red {
+  color: rgb(200, 3, 3); /* red text color */
+}
+.grey {
+  color: rgb(96, 96, 96); /* grey text color */
+}
+
+.link {
+  color: rgb(33, 125, 216); /* link color */
+  cursor: pointer; /* cursor style */
+}
+.weight {
+  font-weight: bold; /* bold font */
+} 
+.link:hover {
+  text-decoration: underline; /* underline on hover */
+}
+.five-g-a {
+  margin-top: 30px; /* top margin */
+  margin-bottom: 0px; /* bottom margin */
+}
+.five-g-b {
+  margin-top: 4px; /* top margin */
+  margin-bottom: 18px; /* bottom margin */
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 8 Challenge</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" type="text/css" href="8abc.css"> <!-- Link to the external CSS file -->
+    
+    <style>
+      .name{
+        font-family: Arial, sans-serif; /* Arial font */
+        font-size: 16px; /* font size */
+        color: rgb(0, 0, 0); /* text color */
+        margin: 10px 0; /* top and bottom margin */
+        padding: 8px; /* padding inside the input field */
+        border: 1px solid #ccc; /* light gray border */
+        border-radius: 8px; /* rounded corners */
+        width: 100px; /* width of the input field */
+      }
+      .email{
+        width: 222px; /* width of the input field */
+        display : block; /* display as a block element */
+        font-family: Arial, sans-serif; /* Arial font */
+        font-size: 16px; /* font size */
+        color: rgb(0, 0, 0); /* text color */
+        margin: 5px 0; /* top and bottom margin */
+        padding: 8px; /* padding inside the input field */
+        border: 1px solid #ccc; /* light gray border */
+        border-radius: 8px; /* rounded corners */
+      }
+      .sign-up-button {
+        background-color: #2687e2; /* Blue background */
+        font-weight: bold; /* Bold text */
+        width: 240px; /* Fixed width for the button */
+        color: white; /* White text */
+        padding: 10px 20px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 16px; /* Font size for the button text */
+        margin-top: 8px
+      }
+      p{
+        font-family: Arial, sans-serif; /* Arial font */
+        font-size: 28px; /* Font size for the text */
+      }
+      .uber {
+        width: 270px; /* Fixed width for the input fields */
+        display: block; /* Display as a block element */
+        padding: 10px; /* Padding inside the input fields */
+        background-color: #f6f6f6;
+        font-size: 14px; /* Font size for the text inside the input fields */
+        border: 1px solid #f6f6f6; /* Border around the input fields */
+        border-radius: 1px; /* Rounded corners for the input fields */
+        margin-bottom: 10px; /* Margin below the input fields */
+      }
+      .uber-now-button{
+        background-color: #000000; /* Blue background */
+        color: white; /* White text */
+  
+        padding: 12px 16px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 1px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 12px; /* Font size for the button text */
+        margin-right: 10px; /* Margin to the right for spacing */
+        margin-top: 20px; /* Margin above the button */
+      }
+      .uber-later-button{
+        background-color: rgb(212, 212, 212); /* Blue background */
+        padding: 12px 16px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 1px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 12px; /* Font size for the button text */
+        margin-top: 20px; /* Margin above the button */
+      }
+    </style>
+  </head>
+  <body>
+
+    <input class="name" placeholder="First name" type="text">
+    <input class="name" placeholder="Last name" type="text">
+    <input class="email" placeholder="Email" type="email">
+    <button class="sign-up-button">
+      Sign Up
+    </button>
+
+
+    <p>
+      Request a ride now
+    </p>
+    <input class="uber" placeholder="Enter pickup location" type="text">
+    <input class="uber" placeholder="Enter destination" type="text">
+ 
+    <button class="uber-now-button">
+      Request now
+    </button>
+    <button class="uber-later-button">
+      Schedule for later
+    </button>
+  </body>
+</html>

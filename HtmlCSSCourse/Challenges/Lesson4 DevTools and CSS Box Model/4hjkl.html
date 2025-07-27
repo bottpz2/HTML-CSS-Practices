@@ -1,0 +1,101 @@
+<style> 
+  button {
+    font-size: 14px; /* font size */
+    cursor: pointer; /* cursor style */
+    vertical-align: top; /* vertical alignment */
+    margin: 4px; /* margin around the button */
+    padding: 10px 16px; /* padding: top, bottom, left, right */
+  }
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: none;
+    transition: 0.3s ease; /* smooth transition for hover and active effects */
+  }
+  .stretch-button:hover {
+    padding: 20px 50px;
+  }
+
+  .shadow-button {
+    background-color: green;
+    border: none;
+    color: white;
+  } 
+  .shadow-button:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .shadow-button:active {
+    box-shadow: none;
+    box-sizing: border-box; /* ensures padding and border are included in width/height */
+    transform: translate(2px, 2px); /* moves the button down and to the right */
+  }
+  .stretch-margin-button {
+    background-color: green;
+    color: white;
+    margin: 10px 10px; /* margin around the button */
+    border: none;
+    border-radius: none;
+    transition: 0.2s ease; /* smooth transition for hover and active effects */
+  }
+  .stretch-margin-button:hover {
+    padding: 10px 24px; /* padding: top, bottom, left, right */
+    margin: 10px 2px; /* margin around the button */
+  } 
+
+  a{
+    font-size: 16px; /* font size */
+    cursor: pointer; /* cursor style */
+    vertical-align: text-bottom; /* vertical alignment */
+    display: inline-block; /* allows padding and margin */
+    padding: 14px 4px; /* padding: top, bottom, left, right */
+    color: inherit; /* inherit color from parent */
+    margin: 2px; /* margin around the link */
+
+  }
+
+</style>
+
+<button>
+  Back
+</button>
+
+<a href="">
+  1
+</a>
+<a href="">
+  2
+</a>
+<a href="">
+  3
+</a>
+<a href="">
+  4
+</a>
+<a href="">
+  5
+</a>
+
+<button>
+  Next
+</button><br>
+
+<button class="stretch-button">
+  Stretch
+</button><br>
+
+<button class="shadow-button">
+  Shadow
+</button><br>
+
+<button class="stretch-margin-button">
+  One
+</button>
+
+<button class="stretch-margin-button">
+  Two
+</button>
+
+<button class="stretch-margin-button">
+  Three
+</button>

@@ -1,0 +1,97 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <title>Lesson 7 Challenge</title> <!-- Title of the webpage -->
+    <style>
+      p{
+        font-family: Arial, Helvetica, sans-serif; /* Arial font */
+        font-size: 14px; /* Font size for the text */
+        color: rgb(96, 96, 96); /* Text color */
+      }
+      .circle {
+        border-radius: 50%; /* Circle shape */
+        width: 30px; /* Fixed width */
+        height: 30px; /* Fixed height for circle */
+        object-fit: cover; /* Cover the entire area */
+      }
+      .youtube-search-bar {
+        width: 15%; /* Fixed width */
+        padding: 10px; /* Padding inside the search bar */
+        font-size: 14px; /* Font size for the text inside the search bar */
+        border: 1px solid #ccc; /* Border around the search bar */
+        border-radius: 10px; /* Rounded corners for the search bar */
+        margin: 20px 0; /* Margin around the search bar */
+      }
+      .google-search-bar {
+        width: 25%; /* Fixed width */
+        padding: 10px; /* Padding inside the search bar */
+        font-size: 14px; /* Font size for the text inside the search bar */
+        box-shadow: 0 0px 4px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        border-radius: 25px; /* Rounded corners for the search bar */
+        border: solid 0px #ccc; /* Border around the search bar */
+        outline: none; /* Remove default outline */
+        margin: 20px 0; /* Margin around the search bar */
+      }
+      .rounded {
+        border-radius: 50%; /* Circle shape */
+        width: 50px; /* Fixed width */
+        height: 50px; /* Fixed height for circle */
+        object-fit: cover; /* Cover the entire area */
+        margin-right: 20px; /* Margin to the right */
+      }
+      .LinkedIn-email-bar {
+        width: 25%; /* Fixed width */
+        padding: 6px; /* Padding inside the email input */
+        font-size: 14px; /* Font size for the text inside the email input */
+        border: 2px solid #6a6969; /* Border around the email input */
+        border-radius: 6px; /* Rounded corners for the email input */
+        margin-bottom: 10px; /* Margin around the email input */
+      }
+      .join-button {
+        background-color: #0077B5; /* LinkedIn blue */
+        color: white; /* Text color */
+        padding: 16px 130px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 30px; /* Rounded corners for the button */
+        font-size: 16px; /* Font size for the button text */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        margin-bottom: 30px; /* Margin below the button */
+      }
+      .twitter {
+        display: inline-flex; /* Inline flexbox for layout */
+        align-items: center; /* Center items vertically */
+        margin-bottom: 20px; /* Margin below the Twitter section */
+     }
+      .twitter-button {
+        margin-right: 40px;
+        background-color: #1DA1F2; /* Twitter blue */
+        color: white; /* Text color */
+        padding: 8px 16px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 20px; /* Rounded corners for the button */
+        font-size: 14px; /* Font size for the button text */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+      }
+      .margin {
+        margin-right: 140px; /* Margin to the right */
+      }
+    </style>
+  </head>
+  <body>
+    <input class="youtube-search-bar" type="text" placeholder="Search"><br>
+
+    <input class="google-search-bar" type="text" placeholder="Search Google or type URL"><br>
+
+    <p style="margin-bottom: 4px;">Email</p>
+    <input class="LinkedIn-email-bar" type="text">
+    <p class="policy">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="join-button">Agree & Join</button> <br>
+
+    <div class="twitter">
+      <img class="rounded" src="cat.jpg">
+      <p class="margin">What's happening?</p>
+      <button class="twitter-button">Tweet</button>
+    </div>
+  </body> 

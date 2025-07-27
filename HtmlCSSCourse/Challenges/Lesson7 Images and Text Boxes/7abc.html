@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+  <head> 
+    <title>Lesson 7 Challenge</title> <!-- Title of the webpage -->
+    <style>
+      .rounded {
+        border-radius: 12px; /* Rounded corners */
+        width: 200px; /* Fixed width */
+        height: auto; /* Maintain aspect ratio */
+      }
+      .square {
+        border-radius: 0; /* Square corners */
+        width: 150px; /* Fixed width */
+        height: 150px; /* Fixed height for square */
+        object-fit: cover; /* Cover the entire area */
+      }
+      .circle {
+        border-radius: 50%; /* Circle shape */
+        width: 150px; /* Fixed width */
+        height: 150px; /* Fixed height for circle */
+        object-fit: cover; /* Cover the entire area */
+      }
+    </style>
+  </head>
+  <body>
+    <img class="rounded" src="cat.jpg">
+    <img class="square" src="cat.jpg">
+    <img class="circle" src="cat.jpg">
+  </body>
+</html>   

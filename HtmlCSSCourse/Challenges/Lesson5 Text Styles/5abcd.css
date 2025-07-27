@@ -1,0 +1,79 @@
+p{
+    font-family: Arial, sans-serif; /* Arial font */
+    font-size: 16px; /* font size */
+    color: rgb(0, 0, 0); /* text color */
+    margin: 10px 0; /* top and bottom margin */
+ }
+  .five-a-tahoma-font {
+    font-family: "Tahoma", sans-serif; /* Tahoma font */
+    font-size: 24px; /* font size */
+    font-weight: bold; /* font weight */
+    margin-top: 20px; /* top margin */
+}
+.five-b-arial-font {
+    font-family: "Arial", sans-serif; /* Arial font */
+    font-size: 24px; /* font size */
+    font-weight: bold; /* font weight */
+    margin-top: 20px; /* top margin */
+    margin-bottom: 0px; /* bottom margin */
+}
+.five-b-a-arial-font {
+    font-family: "Arial", sans-serif; /* Arial font */
+    color: rgb(200, 3, 3); /* text color */
+    margin-top: 5px; /* top margin */
+}
+
+.five-c-a-verdana-font {
+    font-family: "Verdana", sans-serif; /* Verdana font */
+    font-size: 20px; /* font size */
+    font-weight: bold; /* font weight */
+    margin-top: 20px; /* top margin */
+    margin-bottom: 0px; /* bottom margin */
+}
+.five-c-b-verdana-font {
+    font-family: "Verdana", sans-serif; /* Verdana font */
+    color: rgb(96, 96, 96); /* text color */
+    margin-top: 5px; /* top margin */
+}
+.five-c-c-verdana-font {
+    font-family: "Verdana", sans-serif; /* Verdana font */
+    width: 340px; /* width of the text */
+  }
+.five-c-d-verdana-font {
+    font-family: "Verdana", sans-serif; /* Verdana font */
+    color: white; /* text color */
+    background-color: green; /* background color */
+    padding: 10px 20px; /* padding: top, bottom, left, right */
+    border-radius: 5px; /* rounded corners */
+    margin-top: 20px; /* top margin */
+    margin-bottom: 0px; /* bottom margin */
+    width: 100px; /* width of the button */
+    text-align: center; /* center text */
+    cursor: pointer; /* cursor style */
+}
+.five-d-a-arial-font{
+    font-family: "Arial", sans-serif; /* Arial font */
+    font-size: 24px; /* font size */
+    width: 400px; /* width of the text */
+    margin-bottom: 0px; /* bottom margin */
+    margin-top: 20px; /* top margin */
+    font-weight: bold; /* font weight */
+    text-align: center; /* center text */
+}
+.five-d-b-arial-font{
+    font-family: "Arial", sans-serif; /* Arial font */
+    width: 400px; /* width of the text */
+    margin-top: 10px; /* top margin */
+    text-align: center; /* center text */
+}
+.five-d-c-arial-font{
+    font-family: "Arial", sans-serif; /* Arial font */
+    width: 400px; /* width of the text */
+    margin-top: 10px; /* top margin */
+    text-align: center; /* center text */
+    color: rgb(0, 0, 255); /* blue text color */
+    cursor: pointer; /* cursor style */
+}
+.five-d-c-arial-font:hover{
+    text-decoration: underline; /* underline on hover */
+}

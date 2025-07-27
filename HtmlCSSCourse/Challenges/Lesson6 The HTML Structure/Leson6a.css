@@ -1,0 +1,20 @@
+p{
+  font-family: 'Montserrat', sans-serif;
+  width: 400px; /* width of the text */
+  text-align: center; /* center alignment */
+  margin: 10px auto; /* top and bottom margin, auto for left and right */
+}
+.model{
+  font-weight: bold;
+  font-size: 24px;
+}
+.model-description{
+  font-size: 16px;
+}
+.model-link{
+
+  text-decoration: underline;
+}
+.model-link:hover{
+  cursor: pointer;
+}

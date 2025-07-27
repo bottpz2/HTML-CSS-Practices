@@ -1,0 +1,66 @@
+button { /* button element */
+  font-family: Arial, sans-serif; /* font family */
+  font-size: 14px; /* font size */
+  cursor: pointer; /* cursor style */
+  vertical-align: top; /* vertical alignment */
+  margin: 4px; /* margin around the button */
+}
+
+.subscribe-button { /* classes */
+  background-color: rgb(190, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: opacity 0.15s ease; /* smooth transition for hover and active effects */
+}
+.subscribe-button:hover { /* hover effect: pseudo class */
+  opacity: 0.8 ;
+}
+
+.subscribe-button:active { /* active effect: pseudo class */
+  opacity: 0.5;
+} 
+.join-button {
+  background-color: white;
+  color: rgb(33, 125, 216);
+  border: rgb(33, 125, 216) solid 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, 
+  color 0.15s ease; /* smooth transition for hover and active effects */
+}
+.join-button:hover {
+  background-color: rgb(33, 125, 216);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(67, 147, 227);
+  color: white;
+  border: none;
+  padding: 10px 16px; /* padding: top, bottom, left, right */
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.15s ease; /* smooth transition for hover effect */
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.15); /* Vector5 for (horizontal, vertical, blur, size, color) */
+}
+.tweet-button:active {
+  padding : 20px 34px; /* padding: top, bottom, left, right */
+  border-radius: 34px; /* border radius */
+}
